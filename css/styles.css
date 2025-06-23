@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(167, 234, 255);
+}
+.container-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+#consumo{
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 1%;
+    border: 2px solid;
+    background-color: cornflowerblue;
+    border-radius: 12px;
+}
+
+.btn{
+    width: 5%;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
